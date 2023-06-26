@@ -36,7 +36,7 @@ static Logger log=Logger.getLogger(CarController.class);
 		return carservice.addCars(c);
 	}
 
-	@DeleteMapping(value = "/delCar/{slNo}")
+	@DeleteMapping(value = "/deleteCar/{slNo}")
 	public String delCar(@PathVariable int slNo) {
 		return carservice.delCar(slNo);
 	}
