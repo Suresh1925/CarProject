@@ -51,5 +51,11 @@ public class CarDao {
 		return carRepo.save(x);
 	}
 
+	public Car putone(Car c) {
+		// TODO Auto-generated method stub
+	return	carRepo.save(c);
+	
+	}
+
 
 }

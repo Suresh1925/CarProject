@@ -84,5 +84,8 @@ static Logger log=Logger.getLogger(CarController.class);
 	public Car change(@PathVariable int slNo,@RequestBody Car c) {
 		return carservice.change(slNo,c);
 	}
-	
+	@PutMapping("/puttu/{slNo}")
+	public Car putone(@RequestBody Car c) {
+		return carservice.putone(c);
+	}
 }

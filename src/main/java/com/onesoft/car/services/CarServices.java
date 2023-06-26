@@ -73,4 +73,9 @@ public class CarServices {
 		return carDao.change(slNo,c);
 	}
 
+	public Car putone(Car c) {
+		// TODO Auto-generated method stub
+		return carDao.putone(c);
+	}
+
 }
