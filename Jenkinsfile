@@ -6,5 +6,10 @@ pipeline{
                 echo "Hi Suresh"
             }
         }
+        stage('test') {
+            steps {
+                echo "Happy Diwali"
+            }
+        }
     }
 }
