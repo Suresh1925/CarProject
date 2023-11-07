@@ -11,5 +11,10 @@ pipeline{
                 echo "Happy Diwali"
             }
         }
+        stage('deploy') {
+            steps {
+                echo "Happy"
+            }
+        }
     }
 }
